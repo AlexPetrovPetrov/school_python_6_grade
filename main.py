@@ -1,4 +1,8 @@
-
-number_a = input("Please enter number a ")
-number_b = input("Please enter number b ")
-print("a times b = " , float(number_a) * float(number_b))
+a = 12
+b = 6
+c = False
+d = True
+print(a >= b)
+print(a == b)
+print(c < d)
+print(d * a < b)
