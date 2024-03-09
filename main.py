@@ -1,7 +1,4 @@
-a = 12
-b = 14
-c = 10
-print(a/b)
-print(a//b)
-print(a%c)
 
+number_a = input("Please enter number a ")
+number_b = input("Please enter number b ")
+print("a times b = " , float(number_a) * float(number_b))
