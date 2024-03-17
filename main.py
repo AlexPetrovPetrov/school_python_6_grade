@@ -15,3 +15,11 @@
 #     else: 
 #         reverse_word = letter + letter + reverse_word
 # print(reverse_word)
+# word = "wwoqioqi"
+# counter = 0
+# for letter in word:
+#     if letter == "e":
+#         counter = 1 + counter
+# print("The word "+ word + " contains "+ str(counter) + " times letter e.")
+    
+
