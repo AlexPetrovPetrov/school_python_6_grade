@@ -23,3 +23,18 @@
 # print("The word "+ word + " contains "+ str(counter) + " times letter e.")
     
 
+from turtle import *
+alex = Turtle()
+screen = Screen()
+alex.color("red")
+goto(0,0)
+shape = 50
+shape_length = 30
+alex.fillcolor("red")
+alex.begin_fill()
+for pen in range(shape):
+    alex.forward(shape_length)
+    alex.left(360/shape)
+alex.end_fill()
+
+screen.exitonclick()
