@@ -43,9 +43,17 @@
 #     print( str(sum) + " is smaller than 10")
 #     sum += 2
 
-gnom = 2
-while gnom < 16:
-    print(str(gnom)+ " gnoms are smaller than 16")
-    gnom += 2
-    if gnom == 14:
-        break
+# gnom = 2
+# while gnom < 16:
+#     print(str(gnom)+ " gnoms are smaller than 16")
+#     gnom += 2
+#     if gnom == 14:
+#         break
+
+elf = 2
+while elf < 8: 
+    if elf == 2:
+        elf += 2
+        continue
+    print("elves are dangerous litte cretures")
+    elf += 1
