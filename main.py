@@ -38,7 +38,14 @@
 # alex.end_fill()
 
 # screen.exitonclick()
-sum = 0
-while sum < 10 :
-    print( str(sum) + " is smaller than 10")
-    sum += 2
+# sum = 0
+# while sum < 10 :
+#     print( str(sum) + " is smaller than 10")
+#     sum += 2
+
+gnom = 2
+while gnom < 16:
+    print(str(gnom)+ " gnoms are smaller than 16")
+    gnom += 2
+    if gnom == 14:
+        break
